@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased text-gray-900;
+  }
+}
+
+@layer components {
+  .prose {
+    @apply max-w-none;
+  }
+  
+  .prose h1 {
+    @apply text-3xl font-bold mb-6;
+  }
+  
+  .prose h2 {
+    @apply text-xl font-semibold mb-4;
+  }
+  
+  .prose p {
+    @apply mb-4 text-gray-600;
+  }
+}
